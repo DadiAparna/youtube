@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: none;
+}
+.logo{
+
+    height:100px;
+    width:100px;
+    padding-top: 4px;
+}
+
+
+body{
+    position: relative;
+    background: #f0f0f0;
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+}
+
+
+.logo{
+    height: 30px;
+    margin: -10px 20px 0;
+}
+
+.search-box{
+    position: relative;
+    max-width: 1500px;
+    width: 60%;
+    height: 40px;
+    display: flex;
+    margin: 130px;
+}
+
+.search-bar{
+    width: 85%;
+    height: 100%;
+    border: 2px solid #dbdbdb;
+    border-radius:50px;
+    padding: 0 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    outline: none;
+}
+.search-btn{
+ 
+    height: 33px;
+  position: relative;
+  left: -50px;
+  border:2px solid #dbdbdb;
+ 
+ border-right: none;
+ width:25px;
+ padding-left: 10px;
+ padding-top: 6px;
+ border-bottom: none;
+ border-left: none;
+
+ 
+
+
+
+}
+.icon{
+
+    width:30px;
+}
+
+    
+.mic{
+
+
+   width:30px;
+   border-radius: 50px;
+   height: 32px;
+  padding-top: 6px;
+  
+
+ 
+}
+
+.user-options{
+    height: 35px;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.user-options .icon{
+    height: 80%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.user-dp{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user-dp img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.side-bar{
+    position: fixed;
+    top: 60px;
+    left: 0;
+    min-width: 200px;
+    width: 200px;
+    height: 1000px;
+    background: #fff;
+    padding-right: 10px;
+}
+
+.links{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items:center;
+    text-transform: capitalize;
+    color:black;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration:none;
+ 
+}
+
+.links img{
+    height: 30px;
+    margin-right: 20px;
+    align-items:center;
+}
+
+
+
+.seperator{
+    border: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+}
+
